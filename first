@@ -10,3 +10,6 @@ var add=React.createClass({
   }
 });
 ReactDOM.render(<add name="read"><add/>,getElementById("app"));
+<div id="app">
+
+</div>
