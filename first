@@ -5,6 +5,7 @@ class Add extends React.Component{
     <div>
       <h1>这是我的第一个React程序</h1>
       <p>this.props.name</p>
+      <mark>此处为第一个修改版本<mark/>
     </div>
   }
 }
