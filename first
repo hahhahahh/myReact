@@ -1,15 +1,12 @@
 我的第一个react程序
-var add=React.createClass({
-  render:function(){
-    return (
-    <div>
-      <h1>我的第一个React程序</h1>
-      <p>{this.props.name}<p>
-    </div>
-    )
-  }
-});
-ReactDOM.render(<add name="read"><add/>,getElementById("app"));
-<div id="app">
 
-</div>
+class Add extends React.Component{
+  render(){
+    <div>
+      <h1>这是我的第一个React程序</h1>
+      <p>this.props.name</p>
+    </div>
+  }
+}
+ReactDOM.render(<Add name="read"><Add/>,getElementById("app"));
+<div id="app"></div>
